@@ -1,7 +1,4 @@
-Visual Studio Code Extension for Apache Cordova Applications
-
-Copyright (c) Microsoft Corporation.
-All rights reserved.
+Visual Studio Code Extension for Applications
 
 MIT License
 
