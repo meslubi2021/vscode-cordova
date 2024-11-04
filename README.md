@@ -104,6 +104,9 @@ We won't go into all of the great things that you can do with the Visual Studio 
 > **Troubleshooting tip:**
 > If you press debug button, but nothing happens and you can see only pending spinner for a long time, make sure that Cordova project is opened as a workspace root. If, for instance, you have one parent directory, and your Cordova project is in a subdirectory, it is recommended to use a [multi-root workspace approach](https://code.visualstudio.com/docs/editor/multi-root-workspaces), so that the debugger can find the necessary Cordova files properly.
 
+> **Troubleshooting tip:**
+If nothing happens when starting the debugger, make sure the directory with the cordova portion of your project is at the top level of the workspace. If, for instance, you have one parent directory, and the cordova codebase is under a subdirectory, it is recommended to use a [multi-root workspace approach](https://code.visualstudio.com/docs/editor/multi-root-workspaces) so that the debugger can find the necessary Cordova files easily.
+
 ## Find Cordova commands in the Command Palette
 
 In the Command Palette, type `Cordova` and choose a command.
